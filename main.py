@@ -7,15 +7,6 @@ import numpy as np
 GINI = 'gini'
 ENTROPY = 'entropy'
 
-# sklearn metrics: modulo che misura le performance metrics.confusion_matrix(target, pred)
-# calcola la matrice di confusione, dice quanti true positives, false pos, true neg, false neg
-# classification report dà l'intera analisi. Gli si passa una colonna di vere x, una colonna di vere y
-# eventualmente i target names.
-# esempio di indicatore: f1 score precision*recall/(2* (precision + recall) (dentro report
-# Probabilmente all'aumentare del numero degli esempi f1 sul training set diminuisce
-
-# lettura matrice report: [0 0 0 0 1 0 0 0 1 ] l'ultima classe si "scambia" con la quinta (solitamente NON è binario,
-# quindi : [10 23 15 30 180 100 98 105 200 ]
 def report(target, pred, clfName):
     print(clfName)
     print("Multiclass accuracy: %.2f%%" %
