@@ -3,7 +3,7 @@ This project is born as an assignment for the Artificial Intelligence exam at Un
 
 # Target
 The objective of this assignment is to compare the results of Naive Bayes, Decision Trees, and Random forest machine learning algorithms.
-The dataset used is the Fashion MNIST (available [here] (https://github.com/zalandoresearch/fashion-mnist) ).
+The dataset used is the Fashion MNIST (available [here](https://github.com/zalandoresearch/fashion-mnist) ).
 
 # Libraries used
 Two libraries are necessary to reproduce the results of the experiments: 
