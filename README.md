@@ -7,8 +7,8 @@ The dataset used is the Fashion MNIST (available [here] (https://github.com/zala
 
 # Libraries used
 Two libraries are necessary to reproduce the results of the experiments: 
- *Numpy: required for effective vectors and matrices use. 
- *Scikit-Learn: provides the implementation of the algorithms.
+ * Numpy: required for effective vectors and matrices use. 
+ * Scikit-Learn: provides the implementation of the algorithms.
  
 # How to reproduce the results of the experiments
 To reproduce the experiment's results, the dataset has to be downloaded and put in the "data" directory.  
